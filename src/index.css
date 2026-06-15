@@ -95,6 +95,16 @@ p {
   text-align: center;
 }
 
+.samosa:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 24px #a855f7);
+}
+
+.samosa:active {
+  transform: scale(0.95)
+}
+
 .container {
   margin-top: 50px;
   display: flex;
